@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Codebase RAG",
-  description: "Index and query your codebase with AI",
+  title: "Multi-Agent Orchestration",
+  description: "Supervisor pattern with Researcher, Writer and Reviewer agents",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
